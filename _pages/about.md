@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.jhu.edu/'>Johns Hopkins University</a> | <a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p><a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing</a></p>
+  #   <p><a href='https://www.jhu.edu/'>Johns Hopkins University</a></p>
+  #   <p>Baltimore, MD</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Anushri Suresh, a Computer Science master's student at <a href='https://www.jhu.edu/'>Johns Hopkins University</a>, where I'm currently associated with the <a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing (CLSP)</a> and the <a href='https://www.infini-ai-lab.cmu.edu/'>InfiniAI Lab</a> at Carnegie Mellon University. I earned my undergraduate degree in Electronics and Communication Engineering from the <a href='https://www.nitt.edu/'>National Institute of Technology, Tiruchirappalli</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work focuses on making machine learning more efficient. I am currently interested in optimizing large language model (LLM) inference and scaling strategies at test time. I've previously worked with the <a href='https://arcade.cs.jhu.edu/'>ARCADE Lab</a> at JHU, <a href='https://www.bosch-softwaretechnologies.com/en/'>Bosch</a>, and the <a href='https://www.ifi.uzh.ch/en/aiml.html'>AI/ML Group at the University of Zurich</a>, contributing across research and applied ML settings.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Research Interests
+- Large Language Model Optimization
+- Efficient Machine Learning
+- Natural Language Processing
+- Test-time Adaptation Strategies
+
+### Experience
+- **Research Assistant** - <a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing</a>, JHU
+- **Research Collaborator** - <a href='https://www.infini-ai-lab.cmu.edu/'>InfiniAI Lab</a>, CMU
+- **Research Assistant** - <a href='https://arcade.cs.jhu.edu/'>ARCADE Lab</a>, Johns Hopkins University
+- **Research Intern** - <a href='https://www.ifi.uzh.ch/en/aiml.html'>AI/ML Group</a>, University of Zurich
+- **Senior Machine Learning Engineer** - <a href='https://www.bosch-softwaretechnologies.com/en/'>Bosch</a>
+
+Outside of work, I'm all about sports and good food. If you're into efficient AI or just want to trade restaurant picks, feel free to reach out!
