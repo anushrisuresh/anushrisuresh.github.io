@@ -91,7 +91,10 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade jupyter nbconvert
+          sudo pip3 install --upgrade jupyter nbconvert
+          export PATH="/usr/local/bin:$PATH"
+          which jupyter || echo "Jupyter not found in PATH"
+          jupyter --version || echo "Jupyter command failed"
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
