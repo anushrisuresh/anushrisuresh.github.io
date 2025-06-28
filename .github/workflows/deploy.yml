@@ -92,9 +92,8 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --user --upgrade jupyter nbconvert
-          export PATH="$HOME/.local/bin:$PATH"
-          which jupyter || echo "Jupyter not found in PATH"
-          jupyter --version || echo "Jupyter command failed"
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          jupyter --version
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
