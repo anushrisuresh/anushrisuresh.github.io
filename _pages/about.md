@@ -24,12 +24,14 @@ Hi, I'm Anushri Suresh, a Computer Science master's student at <a href='https://
 My work focuses on making machine learning more efficient. I am currently interested in optimizing large language model (LLM) inference and scaling strategies at test time. I've previously worked with the <a href='https://arcade.cs.jhu.edu/'>ARCADE Lab</a> at JHU, <a href='https://www.bosch-softwaretechnologies.com/en/'>Bosch</a>, and the <a href='https://www.ifi.uzh.ch/en/aiml.html'>AI/ML Group at the University of Zurich</a>, contributing across research and applied ML settings.
 
 ### Research Interests
+
 - Large Language Model Optimization
 - Efficient Machine Learning
 - Natural Language Processing
 - Test-time Adaptation Strategies
 
 ### Experience
+
 - **Research Assistant** - <a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing</a>, JHU
 - **Research Collaborator** - <a href='https://www.infini-ai-lab.cmu.edu/'>InfiniAI Lab</a>, CMU
 - **Research Assistant** - <a href='https://arcade.cs.jhu.edu/'>ARCADE Lab</a>, Johns Hopkins University
