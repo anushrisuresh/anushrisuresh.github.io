@@ -13,10 +13,10 @@ profile:
   #   <p><a href='https://www.jhu.edu/'>Johns Hopkins University</a></p>
   #   <p>Baltimore, MD</p>
 
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I'm Anushri Suresh, a Computer Science master's student at <a href='https://www.jhu.edu/'>Johns Hopkins University</a>, where I'm currently associated with the <a href='https://www.clsp.jhu.edu/'>Center for Language and Speech Processing (CLSP)</a> and the <a href='https://www.infini-ai-lab.cmu.edu/'>InfiniAI Lab</a> at Carnegie Mellon University. I earned my undergraduate degree in Electronics and Communication Engineering from the <a href='https://www.nitt.edu/'>National Institute of Technology, Tiruchirappalli</a>.
