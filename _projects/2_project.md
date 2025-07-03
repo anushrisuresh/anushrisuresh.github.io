@@ -2,7 +2,7 @@
 layout: page
 title: Rich Teacher Features for Efficient Single-Image Haze Removal
 description: Lightweight image dehazing using feature distillation and affinity modules
-img: assets/img/projects/Dehaze/dehaze_thumbnail.jpeg
+img: assets/img/projects/Dehaze/Knowledge-Distillation_thumbnail.webp
 importance: 2
 category: work
 giscus_comments: true
