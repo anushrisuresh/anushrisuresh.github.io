@@ -1,81 +1,51 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Rich Teacher Features for Efficient Single-Image Haze Removal
+description: Lightweight image dehazing using feature distillation and affinity modules
+img: assets/img/projects/Dehaze/dehaze_thumbnail.jpeg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Rich Teacher Features for Efficient Single-Image Haze Removal
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Single-image haze removal is a challenging computer vision task that significantly impacts image quality and downstream applications. This project introduces a novel lightweight framework that leverages **heterogeneous knowledge distillation** from super-resolution models to achieve efficient and effective image dehazing.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Key Innovation: Feature Affinity Module
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Our approach exploits rich "dark-knowledge" information from a lightweight pre-trained super-resolution teacher model through a specially designed **Feature Affinity Module** that maximizes the flow of semantic features to the student dehazing network.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Technical Approach
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Heterogeneous Knowledge Distillation**: Transfer knowledge from super-resolution domain to dehazing
+2. **Feature Affinity Module**: Designed to maximize rich feature semantic flow
+3. **Lightweight Architecture**: Significantly reduced model complexity while maintaining performance
+4. **Plug-and-Play Design**: Can be integrated with existing baseline models
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Results & Performance
 
-{% raw %}
+- **PSNR Improvement**: Up to 15% gains in Peak Signal-to-Noise Ratio
+- **Model Efficiency**: ~20× reduction in model size compared to traditional approaches
+- **Dataset Validation**: Comprehensive evaluation on RESIDE-Standard dataset
+- **Robustness**: Demonstrated effectiveness on both synthetic and real-world domains
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Architecture Highlights
 
-{% endraw %}
+The framework employs a dual-path architecture with:
+- **Clear Feature Maps (F.M)**: Processing clean image features
+- **Hazy Feature Maps (F.M)**: Processing degraded input features  
+- **Pooling and Flattening**: Efficient feature dimensionality reduction
+- **L2 Loss Optimization**: Robust training objective for feature alignment
+
+### Applications
+
+This lightweight dehazing solution is particularly suitable for:
+- **Edge Computing**: On-device image enhancement
+- **Real-time Processing**: Low-latency applications
+- **Resource-Constrained Environments**: Mobile and embedded systems
+- **Surveillance Systems**: Improving visibility in adverse weather conditions
+
+**GitHub Repository**: [anushrisuresh/Dehaze](https://github.com/anushrisuresh/Dehaze)
+
+**Technologies**: PyTorch, Computer Vision, Knowledge Distillation, Image Processing, Deep Learning
