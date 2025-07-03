@@ -50,6 +50,8 @@ This research has direct applications in:
 - Multi-modal sensor fusion for decision-making
 - Adaptive AI systems in dynamic scenarios
 
----
+**GitHub Repository**: [ML-DL-Fall2024/semi-supervised-learning](https://github.com/ML-DL-Fall2024/semi-supervised-learning)
 
-*This project was developed as part of advanced machine learning coursework, focusing on the intersection of self-supervised learning and reinforcement learning for autonomous systems.*
+**Technologies**: PyTorch, CARLA Simulator, Reinforcement Learning, Computer Vision, Deep Learning, ROS
+
+
