@@ -38,4 +38,4 @@ My work focuses on making machine learning more efficient. I am currently intere
 - **Research Intern** - <a href='https://www.ifi.uzh.ch/en/aiml.html'>AI/ML Group</a>, University of Zurich
 - **Senior Machine Learning Engineer** - <a href='https://www.bosch-softwaretechnologies.com/en/'>Bosch</a>
 
-Outside of work, I'm all about sports and good food. If you're into efficient AI or just want to trade restaurant picks, feel free to reach out!
+Outside of work, I'm all about sports and good food. If you're into LLM Inference or just want to trade restaurant picks, feel free to reach out!
