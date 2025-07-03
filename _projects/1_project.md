@@ -18,7 +18,6 @@ Modern large language models (LLMs) rely on a **Key–Value (KV) cache** to stor
     </div>
 </div>
 
-
 **Selective KV Quantization** bridges this gap by:
 
 1. **Preserving** "sink" (initial prompt) and a sliding "window" of recent tokens in full precision (FP16)
@@ -29,10 +28,10 @@ This hybrid strategy delivers up to **2× memory savings** with **no increase in
 
 ### Key Results
 
-| Caching Strategy | Perplexity | ROUGE-L | Memory Reduction |
-|------------------|------------|---------|------------------|
-| Full Cache       | 5.56       | 0.2073  | Baseline         |
-| Compressed Cache | 132.08     | 0.1030  | ~4×              |
+| Caching Strategy    | Perplexity | ROUGE-L    | Memory Reduction |
+| ------------------- | ---------- | ---------- | ---------------- |
+| Full Cache          | 5.56       | 0.2073     | Baseline         |
+| Compressed Cache    | 132.08     | 0.1030     | ~4×              |
 | **Quantized Cache** | **5.56**   | **0.1709** | **~2×**          |
 
 <div class="row">
@@ -44,7 +43,7 @@ This hybrid strategy delivers up to **2× memory savings** with **no increase in
 ### Technical Highlights
 
 - **Memory Efficiency**: KV cache accounts for over 90% of total GPU memory usage
-- **Accuracy Preservation**: Maintains full-cache perplexity while achieving significant memory savings  
+- **Accuracy Preservation**: Maintains full-cache perplexity while achieving significant memory savings
 - **Selective Strategy**: Smart preservation of important tokens (sink + sliding window) in full precision
 - **On-the-fly Processing**: Efficient dequantization only when needed for attention computation
 

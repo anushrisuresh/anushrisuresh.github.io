@@ -15,19 +15,22 @@ This project addresses the critical challenge of face recognition in surveillanc
 ### Problem Statement
 
 Surveillance cameras frequently capture face images that are:
+
 - **Low Resolution**: Limited pixel information due to distance or camera constraints
-- **Poor Quality**: Affected by lighting, motion blur, or compression artifacts  
+- **Poor Quality**: Affected by lighting, motion blur, or compression artifacts
 - **Challenging for Recognition**: Standard face recognition systems struggle with degraded inputs
 
 ### Technical Approach
 
 #### Super-Resolution GAN Architecture
+
 - **Generator Network**: Transforms low-resolution inputs to high-resolution outputs
 - **Discriminator Network**: Ensures realistic and high-quality super-resolved images
 - **Adversarial Training**: Generator and discriminator compete to improve image quality
 - **Perceptual Loss**: Maintains facial features and identity-relevant information
 
 #### Integration with Face Recognition
+
 - **Two-Stage Pipeline**: Super-resolution followed by face recognition
 - **End-to-End Optimization**: Joint training for optimal recognition performance
 - **Feature Preservation**: Maintains discriminative facial characteristics during upsampling
@@ -35,11 +38,13 @@ Surveillance cameras frequently capture face images that are:
 ### Performance Achievements
 
 #### Quantitative Results
+
 - **37% Improvement**: Recognition rate increase on down-sampled test images
 - **5% Overall Gain**: Performance improvement across the entire proprietary dataset
 - **Robust Performance**: Consistent improvements across various quality degradations
 
 #### Technical Metrics
+
 - **PSNR Enhancement**: Significant peak signal-to-noise ratio improvements
 - **SSIM Scores**: Better structural similarity to high-quality references
 - **Recognition Accuracy**: Substantial gains in face identification tasks

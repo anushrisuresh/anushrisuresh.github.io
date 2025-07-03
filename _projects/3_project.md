@@ -45,6 +45,7 @@ The framework demonstrates significant improvements in adaptability under dynami
 ## Applications
 
 This research has direct applications in:
+
 - Autonomous vehicle navigation
 - Robotic exploration in unknown environments
 - Multi-modal sensor fusion for decision-making
@@ -53,5 +54,3 @@ This research has direct applications in:
 **GitHub Repository**: [ML-DL-Fall2024/semi-supervised-learning](https://github.com/ML-DL-Fall2024/semi-supervised-learning)
 
 **Technologies**: PyTorch, CARLA Simulator, Reinforcement Learning, Computer Vision, Deep Learning, ROS
-
-

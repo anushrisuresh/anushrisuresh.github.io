@@ -78,9 +78,7 @@
       "endDate": "2026",
       "score": "4.0/4.0",
       "courses": [],
-      "highlights": [
-        "Teaching Assistant - Machine Learning: Deep Learning (Spring '25)"
-      ]
+      "highlights": ["Teaching Assistant - Machine Learning: Deep Learning (Spring '25)"]
     },
     {
       "institution": "National Institute of Technology, Tiruchirappalli",
@@ -94,35 +92,15 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [
-        "Python",
-        "C/C++",
-        "SQL",
-        "Bash"
-      ]
+      "keywords": ["Python", "C/C++", "SQL", "Bash"]
     },
     {
       "name": "Developer Tools",
-      "keywords": [
-        "Git",
-        "Docker",
-        "Kubernetes",
-        "Linux",
-        "SLURM",
-        "Airflow"
-      ]
+      "keywords": ["Git", "Docker", "Kubernetes", "Linux", "SLURM", "Airflow"]
     },
     {
       "name": "ML & AI Frameworks",
-      "keywords": [
-        "PyTorch",
-        "TensorFlow",
-        "Keras",
-        "vLLM",
-        "HuggingFace Transformers",
-        "CUDA",
-        "OpenCV"
-      ]
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "vLLM", "HuggingFace Transformers", "CUDA", "OpenCV"]
     }
   ],
   "projects": [

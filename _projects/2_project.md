@@ -33,14 +33,16 @@ Our approach exploits rich "dark-knowledge" information from a lightweight pre-t
 ### Architecture Highlights
 
 The framework employs a dual-path architecture with:
+
 - **Clear Feature Maps (F.M)**: Processing clean image features
-- **Hazy Feature Maps (F.M)**: Processing degraded input features  
+- **Hazy Feature Maps (F.M)**: Processing degraded input features
 - **Pooling and Flattening**: Efficient feature dimensionality reduction
 - **L2 Loss Optimization**: Robust training objective for feature alignment
 
 ### Applications
 
 This lightweight dehazing solution is particularly suitable for:
+
 - **Edge Computing**: On-device image enhancement
 - **Real-time Processing**: Low-latency applications
 - **Resource-Constrained Environments**: Mobile and embedded systems
