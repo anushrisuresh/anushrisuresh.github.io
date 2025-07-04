@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Anushri Suresh",
-    "label": "Graduate student in computer science @ johns hopkins",
+    // "label": "Graduate student in computer science @ johns hopkins",
     "image": "",
     "email": "",
     "url": "",
-    "summary": "LLM Inference optimization, scaling test-time compute",
+    "Expertise": "LLM Inference optimization, scaling test-time compute",
     "location": {
       "address": "",
       "postalCode": "",
