@@ -3,9 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{wang2026conformal,
+  abbr={ICML},
+  title={Conformal Thinking: Risk Control for Reasoning on a Compute Budget},
+  author={Wang, Xi and Suresh, Anushri and Zhang, Alvin and More, Rishi and Jurayj, William and Van Durme, Benjamin and Farajtabar, Mehrdad and Khashabi, Daniel and Nalisnick, Eric},
+  journal={International Conference on Machine Learning (ICML)},
+  year={2026},
+  publisher={PMLR},
+  doi={10.48550/arXiv.2602.03814},
+  url={https://arxiv.org/abs/2602.03814},
+  abstract={Reasoning Large Language Models (LLMs) enable test-time scaling, with dataset-level accuracy improving as the token budget increases, motivating adaptive reasoning -- spending tokens when they improve reliability and stopping early when additional computation is unlikely to help. However, setting the token budget, as well as the threshold for adaptive reasoning, is a practical challenge that entails a fundamental risk-accuracy trade-off. We re-frame the budget setting problem as risk control, limiting the error rate while minimizing compute. Our framework introduces an upper threshold that stops reasoning when the model is confident (risking incorrect output) and a novel parametric lower threshold that preemptively stops unsolvable instances (risking premature stoppage). Given a target risk and a validation set, we use distribution-free risk control to optimally specify these stopping mechanisms. For scenarios with multiple budget controlling criteria, we incorporate an efficiency loss to select the most computationally efficient exiting mechanism. Empirical results across diverse reasoning tasks and models demonstrate the effectiveness of our risk control approach, demonstrating computational efficiency gains from the lower threshold and ensemble stopping mechanisms while adhering to the user-specified risk target.},
+  selected={true},
+  preview={early_stop.png}
+}
+
 @article{killeen2024intelligent,
   abbr={IPCAI},
-  bibtex_show={true},
   title={Intelligent Control of Robotic X-ray Devices using a Language-promptable Digital Twin},
   author={Killeen, Benjamin D. and Suresh, Anushri and Gomez, Catalina and Inigo, Blanca and Bailey, Christopher and Unberath, Mathias},
   journal={International Conference on Information Processing in Computer-Assisted Interventions (IPCAI)},
@@ -13,7 +26,6 @@
   publisher={Springer},
   doi={10.48550/arXiv.2412.08020},
   url={https://arxiv.org/abs/2412.08020},
-  html={https://arxiv.org/abs/2412.08020},
   abstract={Natural language offers a convenient, flexible interface for controlling robotic C-arm X-ray systems, making advanced functionality and controls accessible. However, enabling language interfaces requires specialized AI models that interpret X-ray images to create a semantic representation for reasoning. The fixed outputs of such AI models limit the functionality of language controls. Incorporating flexible, language-aligned AI models prompted through language enables more versatile interfaces for diverse tasks and procedures. Using a language-aligned foundation model for X-ray image segmentation, our system continually updates a patient digital twin based on sparse reconstructions of desired anatomical structures. This supports autonomous capabilities such as visualization, patient-specific viewfinding, and automatic collimation from novel viewpoints, enabling commands 'Focus in on the lower lumbar vertebrae.' In a cadaver study, users visualized, localized, and collimated structures across the torso using verbal commands, achieving 84% end-to-end success. Post hoc analysis of randomly oriented images showed our patient digital twin could localize 35 commonly requested structures to within 51.68 mm, enabling localization and isolation from arbitrary orientations. Our results demonstrate how intelligent robotic X-ray systems can incorporate physicians' expressed intent directly. While existing foundation models for intra-operative X-ray analysis exhibit failure modes, as they improve, they can facilitate highly flexible, intelligent robotic C-arms.},
   award={Siemens Healthineers Best Paper Award},
   award_name={Best Paper Award},
@@ -23,7 +35,6 @@
 
 @article{mitheran2022rich,
   abbr={Optik},
-  bibtex_show={true},
   title={Rich Feature Distillation with Feature Affinity Module for Efficient Image Dehazing},
   author={Mitheran, Sai and Suresh, Anushri and J. S., Nisha and Gopi, Varun P.},
   journal={Optik},
@@ -31,7 +42,6 @@
   publisher={Elsevier},
   doi={10.48550/arXiv.2207.11250},
   url={https://arxiv.org/abs/2207.11250},
-  html={https://arxiv.org/abs/2207.11250},
   abstract={Single-image haze removal is a long-standing hurdle for computer vision applications. Several works have been focused on transferring advances from image classification, detection, and segmentation to the niche of image dehazing, primarily focusing on contrastive learning and knowledge distillation. However, these approaches prove computationally expensive, raising concern regarding their applicability to on-the-edge use-cases. This work introduces a simple, lightweight, and efficient framework for single-image haze removal, exploiting rich "dark-knowledge" information from a lightweight pre-trained super-resolution model via the notion of heterogeneous knowledge distillation. We designed a feature affinity module to maximize the flow of rich feature semantics from the super-resolution teacher to the student dehazing network. In order to evaluate the efficacy of our proposed framework, its performance as a plug-and-play setup to a baseline model is examined. Our experiments are carried out on the RESIDE-Standard dataset to demonstrate the robustness of our framework to the synthetic and real-world domains. The extensive qualitative and quantitative results provided establish the effectiveness of the framework, achieving gains of upto 15% (PSNR) while reducing the model size by ∼20 times.},
   selected={true},
   preview={dehaze.png}
